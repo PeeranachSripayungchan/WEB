@@ -1,51 +1,109 @@
 <html>
-<body bgcolor = "D3D3D3">
+<style>
+  * {
+    box-sizing: border-box;
+  }
 
-<img src="22.png" align="middle" alt="bell" width="150" height="100">
-<!-- Load an icon library -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  .column {
+    float: left;
+    padding: 40px;
+    height: 100px;
+    /* Should be removed. Only for demonstration */
+  }
 
-<div class="navbar">
-  <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a>
-  <a href="#"><i class="fa fa-fw fa-search"></i> Search</a>
-  <a href="#"><i class="fa fa-fw fa-envelope"></i> Contact</a>
-  <a href="#"><i class="fa fa-fw fa-user"></i> Login</a>
+  .left {
+    width: 30%;
+  }
+
+  .right {
+    width: 35%;
+  }
+
+  .middle {
+    width: 35%;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  }
+</style>
+<div class="container">
+  <div class="row">
+
+    <body bgcolor="D3D3D3">
+
+      <div class="navbar" style="margin-left: 80%;">
+        <a href="#"><i class="fa fa-fw fa-home"></i> Home</a>
+        <a href="#"><i class="fa fa-fw fa-search"></i> Search</a>
+        <a href="#"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+        <a href="#"><i class="fa fa-fw fa-user"></i> Login</a>
+      </div>
+
+      <img src="22.png" align="middle" alt="bell" width="150" height="100">
+      <!-- Load an icon library -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+      <div class="card">
+        <div class="column left">
+          <img src="omlete.jpeg" style="width:20%">
+          <font color=“6095ED”>
+            <h1>ข้าวไข่เจียว</h1>
+          </font>
+          <p class="price">40 บาท</p>
+          <font color=“FFD700”>
+            <p>ข้าวไข่เจียวธรรมดา</p>
+          </font>
+          <p><button>Buy</button></p>
+        </div>
+
+        <div class="column middle">
+          <img src="กระเพราหมูกรอบ.jpg" style="width:20%">
+          <font color=“6095ED”>
+            <h1>ข้าวกระเพราหมูกรอบ</h1>
+          </font>
+          <p class="Price">50 บาท</p>
+          <font color=“FFD700”>
+            <p>ข้าวกระเพราหมูกรอบ</p>
+          </font>
+          <p><button>Buy</button></p>
+
+
+          <img src="หมูกระเทียม.jpg" style="width:20%">
+          <font color=“6095ED”>
+            <h1>ข้าวหมูกระเทียม</h1>
+          </font>
+          <p class="Price">55 บาท</p>
+          <p>หมูกระเทียม</p>
+          <p><button>Buy</button></p>
+        </div>
+
+        <div class="column right">
+          <img src="ข้าวมันไก่.jpg" style="width:20%">
+          <font color=“6095ED”>
+            <h1>ข้าวมันไก่</h1>
+          </font>
+          <p class="Price">55 บาท</p>
+          <p>ข้าวมันไก่</p>
+          <p><button>Buy</button></p>
+
+          <img src="ข้าวผัดปู.jpg" style="width:20%">
+          <font color=“6095ED”>
+            <h1>ข้าวผัดปู</h1>
+          </font>
+          <p class="Price">70 บาท</p>
+          <p>ข้าวผัดปู</p>
+          <p><button>Buy</button></p>
+        </div>
+
+
+
+      </div>
+    </body>
+  </div>
 </div>
-  
-<div class="card">
-  <img src="omlete.jpeg" style="width:20%">
-  <font color=“6095ED”><h1>ข้าวไข่เจียว</h1></font>
-  <p class="price">40 บาท</p>
-  <font color=“FFD700”><p>ข้าวไข่เจียวธรรมดา</p></font>
-  <p><button>Buy</button></p>
 
-  
-  <img src="กระเพราหมูกรอบ.jpg" style="width:20%">
-  <font color=“6095ED”><h1>ข้าวกระเพราหมูกรอบ</h1></font>
-  <p class="Price">50 บาท</p>
-  <font color=“FFD700”><p>ข้าวกระเพราหมูกรอบ</p></font>
-  <p><button>Buy</button></p>
-
-  <img src="หมูกระเทียม.jpg" style="width:20%">
-  <font color=“6095ED”><h1>ข้าวหมูกระเทียม</h1></font>
-  <p class="Price">55 บาท</p>
-  <p>หมูกระเทียม</p>
-  <p><button>Buy</button></p>
-
-  <img src="ข้าวมันไก่.jpg" style="width:20%">
-  <font color=“6095ED”><h1>ข้าวมันไก่</h1></font>
-  <p class="Price">55 บาท</p>
-  <p>ข้าวมันไก่</p>
-  <p><button>Buy</button></p>
-
-  <img src="ข้าวผัดปู.jpg" style="width:20%">
-  <font color=“6095ED”><h1>ข้าวผัดปู</h1></font>
-  <p class="Price">70 บาท</p>
-  <p>ข้าวผัดปู</p>
-  <p><button>Buy</button></p>
-
-
-
-</div>
-</body>
 </html>
