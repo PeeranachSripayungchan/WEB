@@ -9,15 +9,15 @@
   }
 
   .left {
-    width: 24%;
+    width: 30%;
   }
 
   .right {
-    width: 37%;
+    width: 35%;
   }
 
   .middle {
-    width: 37%;
+    width: 35%;
   }
 
   .row::after {
@@ -41,3 +41,4 @@
   .container {
     padding: 2px 16px;
   }
+
