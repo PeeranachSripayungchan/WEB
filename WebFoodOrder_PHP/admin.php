@@ -31,9 +31,11 @@
             }
         ?>
         <h3 class="mt-4"><p style="text-align:right">Welcome Admin, <?php echo $row['firstname'] . ' ' . $row['lastname'] ?></p></h3>
-        <a href="logout.php" class="btn btn-danger"><p style="text-align:right">Logout</p></a>
+        <div class="navbar" style="margin-left: 96%;">
+            <button type="button" style="background-color: #e74c3c; border-radius: 6px;"><a href="logout.php" style="color: #ffffff;"><i class="fa fa-close"></i>Logout</a></button>
+        </div>
     </div>
     <br>
-    <a href="admin_inbox.php"><p style="margin-left: 8%;"><button class="button">Inbox</button></p></a>
+    <button type="button" style="background-color: #1e90ff; border-radius: 6px; font-size: 32px"><a href="admin_inbox.php" style="color: #ffffff;">Inbox</a></button>
 </body>
 </html>
