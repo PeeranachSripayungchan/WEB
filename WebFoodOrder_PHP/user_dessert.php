@@ -39,7 +39,7 @@
 
     <div class="navbar" style="margin-left: 83%;">
         <button type="button" style="background-color: #1e90ff; border-radius: 6px;"><a href="user.php" style="color: #ffffff;"><i class="fa fa-fw fa-home"></i> Home</a></button>
-        <button type="button" style="background-color: #1e90ff; border-radius: 6px;"><a href="#" style="color: #ffffff;"><i class="fa fa-fw fa-envelope"></i> Contact</a></button>
+        <button type="button" style="background-color: #1e90ff; border-radius: 6px;"><a href="contact.php" style="color: #ffffff;"><i class="fa fa-fw fa-envelope"></i> Contact</a></button>
         <button type="button" style="background-color: #1e90ff; border-radius: 6px;"><a href="profile.php" style="color: #ffffff;"><i class="fa fa-fw fa-user"></i> Profile</a></button>
     </div>
     

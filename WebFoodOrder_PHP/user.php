@@ -34,13 +34,13 @@
             }
         ?>
         <h3 class="mt-4"><p style="text-align:right">Welcome, <?php echo $row['firstname'] . ' ' . $row['lastname'] ?></p></h3>
-        <button type="button" style="margin-left: 95%; background-color: #e74c3c; border-radius: 6px;"><a href="logout.php" class="btn btn-danger" style="color: #ffffff;"><p><i class="fa fa-close"></i>Logout</p></a></button>
     </div>
 
-    <div class="navbar" style="margin-left: 83%;">
+    <div class="navbar" style="margin-left: 79.4%;">
         <button type="button" style="background-color: #1e90ff; border-radius: 6px;"><a href="user.php" style="color: #ffffff;"><i class="fa fa-fw fa-home"></i> Home</a></button>
-        <button type="button" style="background-color: #1e90ff; border-radius: 6px;"><a href="#" style="color: #ffffff;"><i class="fa fa-fw fa-envelope"></i> Contact</a></button>
+        <button type="button" style="background-color: #1e90ff; border-radius: 6px;"><a href="contact.php" style="color: #ffffff;"><i class="fa fa-fw fa-envelope"></i> Contact</a></button>
         <button type="button" style="background-color: #1e90ff; border-radius: 6px;"><a href="profile.php" style="color: #ffffff;"><i class="fa fa-fw fa-user"></i> Profile</a></button>
+        <button type="button" style="background-color: #e74c3c; border-radius: 6px;"><a href="logout.php" style="color: #ffffff;"><i class="fa fa-close"></i>Logout</a></button>
     </div>
     
     <img src="logo.png" style="margin-left: 4%;" alt="bell" width="150" height="100">
