@@ -66,7 +66,7 @@
                 <br>
                 <img src="ChocolateCake.png" style="width:20%">
                 <h1 style="color:#6095ED;">Chocolate Cake</h1>
-                <p class="price">130 บาทต่อ 1 ส่วน (เต็มชิ้น 780 บาท)</p>
+                <p class="price">780 บาท</p>
                 <p><button type="button" style="background-color: #1e90ff; color: #ffffff; border-radius: 6px;"><i class="fa fa-cart-plus"></i> Buy</button></p>
             </div>
         </div>
